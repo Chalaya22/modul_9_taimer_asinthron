@@ -1,0 +1,70 @@
+body {
+  background-image: url(https://i.ibb.co/Wt6q4QP/1-y-X7-Vd1-G1wi9-F0vth-LEh-AA.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.clock {
+  width: 550px;
+  height: 550px;
+  background-image: url(https://i.ibb.co/dBGxSK1/hiclipart-com-3.png);
+  background-color: rgb(135, 130, 130);
+  background-size: cover;
+  border-radius: 50%;
+  position: relative;
+  margin: auto;
+}
+.clock-arrow {
+  position: absolute;
+  background-color: black;
+  transform-origin: bottom;
+  transform: translateX(-50%);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.clock-center {
+  position: absolute;
+  background-color: black;
+  left: 260px;
+  top: 260px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.clock-seconds_arrow {
+  bottom: 50%;
+  left: 50%;
+  width: 5px;
+  height: 40%;
+}
+.clock-minutes_arrow {
+  bottom: 50%;
+  left: 50%;
+  width: 7px;
+  height: 33%;
+}
+.clock-hours_arrow {
+  bottom: 50%;
+  left: 50%;
+  width: 12px;
+  height: 24%;
+}
+date {
+  width: 100%px;
+  height: 100%;
+  color: black;
+}
+.calendar {
+  display: flex;
+  justify-content: space-between;
+}
+.date-style {
+  display: flex;
+  font-size: 40px;
+  font-weight: 900;
+  text-shadow: 3px 3px 2px white;
+}
+.digital-clock {
+  text-align: center;
+  font-size: 60px;
+  text-shadow: 3px 3px 2px white;
+}
